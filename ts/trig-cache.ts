@@ -359,7 +359,7 @@ const sines: number[] = [
   -0.05233595624294437, // 357
   -0.034899496702500823, // 358
   -0.01745240643728356, // 359
-];
+] as const;
 
 function normalize(angle: number): number {
   const mod = angle % 360;
